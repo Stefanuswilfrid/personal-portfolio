@@ -3,10 +3,10 @@ import { useAnimation } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect } from 'react';
 import { FaJava, FaPython, FaReact } from 'react-icons/fa';
-import { SiDocker, SiGraphql, SiJavascript, SiLatex, SiNodeDotJs, SiPytorch } from 'react-icons/si';
+import { SiGraphql, SiJavascript, SiLatex, SiNodeDotJs } from 'react-icons/si';
 import { useInView } from 'react-intersection-observer';
 
-import { AwsIcon, EthereumIcon, MongoIcon, PostgresIcon, TsIcon } from './libs/Icons';
+import { EthereumIcon, MongoIcon, PostgresIcon } from './libs/Icons';
 import { Skill } from './libs/Skill';
 
 const skills = [
