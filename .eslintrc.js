@@ -32,6 +32,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/no-onchange': 'off',
     'no-unused-vars': 'warn',
